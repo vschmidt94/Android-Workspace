@@ -1,0 +1,13 @@
+Class Notes
+
+Week 1 Notes
+
+Setting up Emulator
+* FN+F11 = rotate screen shortcut (or some version of F11)
+* Each emulator will be assinged port starting 5554
+* telnet localhost 5554 <-- to connect by telnet
+* Can send messages from emulators using port numbers
+* can use avd command - 'avd stop' / 'avd start' can pause / start emulator, saves battery
+* avd commands can also take snapshots
+
+keyboard shortcuts - on website: developer.android.com - under tools help, you find keyboard shortcuts
