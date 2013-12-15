@@ -11,3 +11,52 @@ Setting up Emulator
 * avd commands can also take snapshots
 
 keyboard shortcuts - on website: developer.android.com - under tools help, you find keyboard shortcuts
+
+
+Inside Devices tab in Eclipse -> reset adb (android debug - in the little drop down arrow box on far right in view)
+
+------
+Occassionaly you may need to clean project --> Project > Clean
+
+To run project
+
+------------------
+Video 2.1 - beyond hello world
+------------------
+for real phone - see developer.android.com for setting up phone with debugging
+
+Minimum SDK version stored in Manifest (/app/AndroidManifest.xml)
+
+Screen layouts stored in project > res > layout
+
+Commonly used strings stored in xml file (/app/res/values/strings.xml) - allows reuse and internationalization.
+* When using string, use &lt;, &gt;, &amp; - symbol entity encoding
+
+Layout information stored in /app/res/layout/(activity_main.xml is main layout)
+
+---------
+Video 2.2
+---------
+Sometimes R file does not build to reflect changes
+--> clean  (or)
+--> delete, R file will be rebuilt
+--> make trivial change to manifest file
+
+--------
+Video 2.3 - Images, Strings, Qualified Layouts
+--------
+- Press CNTL+Space when editing text to bring up selection drop down in Eclipse
+- On the layout view for images, additional options can be found such as:
+-- ScaleType
+-- Adjust View Bounds
+
+- Change text to strings
+--> Refactor > Extract Android String
+
+- Android Lint will clean up hanging little errors, etc that don't go away
+- Can use properties tab to do some edits
+
+- Set up a new layout 
+-- in res folder, make new folder, example: "layout-land" for landscape
+-- change your activity.xml to reflect
+
