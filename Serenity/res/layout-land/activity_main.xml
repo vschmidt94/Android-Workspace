@@ -17,12 +17,15 @@
 
     <TextView
         android:id="@+id/TextView01"
-        android:layout_width="60dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignLeft="@layout/activity_main"
+        android:layout_alignParentLeft="true"
         android:layout_alignRight="@+id/textView100"
         android:layout_below="@+id/textView100"
+        android:layout_centerInParent="false"
+        android:paddingTop="10dp"
         android:text="@string/makes_her_a_home"
         android:textAlignment="viewStart" />
 
@@ -30,12 +33,14 @@
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:adjustViewBounds="true"
         android:baselineAlignBottom="true"
         android:contentDescription="@string/serenity_firefly"
         android:cropToPadding="true"
         android:paddingLeft="50dp"
+        android:paddingTop="10dp"
         android:scaleType="fitEnd"
         android:src="@drawable/serenity1280" />
 

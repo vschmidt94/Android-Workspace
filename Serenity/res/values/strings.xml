@@ -5,7 +5,10 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">I am a leaf on the wind.</string>
     <string name="serenity_firefly">Serenity - Firefly Class</string>
-    <string name="makes_her_a_home">"\"But it ain\'t all buttons and charts, little albatross. 
-        You know what the first rule of flyin\' is? Love. You can know all the math in the \'Verse, but take a boat in the air you don\'t love, she\'ll shake you off just as sure as the turning of worlds. Love keeps her in the air when she oughta fall down, tells you she\'s hurtin\' \'fore she keens.  Makes her a home. "</string>
+    <string name="makes_her_a_home">\"But it ain\'t all buttons and charts, little albatross. 
+        You know what the first rule of flyin\' is? Love. You can know all the math in the \'Verse, 
+        but take a boat in the air you don\'t love, she\'ll shake you off just as sure as the turning of worlds. 
+        Love keeps her in the air when she oughta fall down, tells you she\'s hurtin\' \'fore she keens.  
+        Makes her a home. "</string>
 
 </resources>
