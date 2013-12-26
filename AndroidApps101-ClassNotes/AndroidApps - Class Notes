@@ -4,7 +4,7 @@ Week 1 Notes
 
 Setting up Emulator
 * FN+F11 = rotate screen shortcut (or some version of F11)
-* Each emulator will be assinged port starting 5554
+* Each emulator will be assigned port starting 5554
 * telnet localhost 5554 <-- to connect by telnet
 * Can send messages from emulators using port numbers
 * can use avd command - 'avd stop' / 'avd start' can pause / start emulator, saves battery
@@ -16,7 +16,7 @@ keyboard shortcuts - on website: developer.android.com - under tools help, you f
 Inside Devices tab in Eclipse -> reset adb (android debug - in the little drop down arrow box on far right in view)
 
 ------
-Occassionaly you may need to clean project --> Project > Clean
+Occasionally you may need to clean project --> Project > Clean
 
 To run project
 
@@ -59,4 +59,50 @@ Video 2.3 - Images, Strings, Qualified Layouts
 - Set up a new layout 
 -- in res folder, make new folder, example: "layout-land" for landscape
 -- change your activity.xml to reflect
+
+--------
+Video 3.1 - Localization & Internationalization
+--------
+- various strings in strings.xml file
+-- (in values directory - default values folder is default strings)
+--- could create a new folder, but there is a wizard - the little thing looks like icon with a in it
+--- wizard adds qualifiers.  qualifiers must be in a specific order
+--- wizard will make new folder like values-es for spanish values folder
+--- add entries as needed to translate
+--- in graphical layout, you can change the language with the world drop down icon.
+--- make emulator pretend to be different language:
+-----> can use ADB
+-----> alternatively in data/property folder "persist.sys.language" is small text config file, change language code
+-----> use file explorer to pull / push changed text file to newly revised file 
+-----> caveat - system may not have all locales loaded, just loads what you have changed.
+
+---------
+Video 3.2 - Exporting for user testing
+---------
+--- Run lint check, but can ignore (turn off) lint warning
+--- to export, in Android Manifest, there is Export Wizard
+----- you need to sign app with keys
+----- APK file is like zip, it is the entire app
+----- to make APK, make new folder(directory)
+----- also under FILE >> EXPORT menu
+----- have to make a keystore (place to store keys)
+-------- Keystore needs secret password
+----------- Make new key, make validity to be long, describe yourself in key fields
+-------- Have to tell phone to accept APK not from Google play
+
+--------
+Video 3.3 - Install APK on phone
+--------
+-- If app exists on device, you probably need to uninstall other app first
+-- may have to change settings to allow from unknown sources
+
+
+
+
+
+
+
+
+
+
 

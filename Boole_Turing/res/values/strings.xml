@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Boole-Turing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="g_boole">George Boole</string>
+    <string name="boole_text">George Boole (2 November 1815 – 8 December 1864) was an English mathematician, philosopher and logician. He worked in the fields of differential equations and algebraic logic, and is now best known as the author of The Laws of Thought. As the inventor of the prototype of what is now called Boolean logic, which became the basis of the modern digital computer, Boole is regarded in hindsight as a founder of the field of computer science. (source: Wikipedia)</string>
+    <string name="g_boole_img">Image of George Boole</string>
+    <string name="a_turing">Alan Turing</string>
+    <string name="turing_text">Alan Mathison Turing, OBE, FRS (23 June 1912 – 7 June 1954), was a British mathematician, logician, cryptanalyst, and computer scientist. He was highly influential in the development of computer science, giving a formalisation of the concepts of "algorithm" and "computation" with the Turing machine, which can be considered a model of a general purpose computer. Turing is widely considered to be the father of computer science and artificial intelligence. (source: Wikipedia)</string>
+    <string name="a_turing_img">Image of Alan Turing</string>
+
+</resources>

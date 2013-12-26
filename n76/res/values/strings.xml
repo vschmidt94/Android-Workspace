@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nordhavn 76</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Eliana">Eliana</string>
+    <string name="Ammonite">Ammonite</string>
+    <string name="n76_text">The Nordhavn 76 is a \'trawler\' style displacement motor yacht built by Pacific Asian Enterprises (PAE).  With a range of over 3,000 nautical miles, the N76 is capable of a circumnavigation.  Standard configuration is a single-screw vessel with a dry stack exchaust, although extensive customizations are available, including dual engines and choice of forward or aft pilothouse.   </string>
+    <string name="label_disp">Displacement</string>
+    <string name="label_LOA">Length (Overall)</string>
+    <string name="label_LWL">Length (Waterline)</string>
+    <string name="label_Beam">Beam</string>
+    <string name="label_WaterCap">Water Capacity</string>
+    <string name="label_FuelCap">Fuel Capacity</string>
+    <string name="label_Draft">Draft</string>
+    <string name="label_Range">Range</string>
+    <string name="value_Range">3,200 NM ( approx)</string>
+    <string name="value_LOA">76\' 3&quot; (23.24 m)</string>
+    <string name="value_LWL">69\' 0&quot; (21.03 m)</string>
+    <string name="value_FuelCap">4,030 USG (15,255 L)</string>
+    <string name="value_Beam">21\' 0&quot; (6.40 m)</string>
+    <string name="value_Draft">7\' 8&quot; (2.29 m)</string>
+    <string name="specifications">Specifications</string>
+    <string name="mv_eliana">MV Eliana</string>
+    <string name="mv_ammonite">MV Ammonite</string>
+
+</resources>
